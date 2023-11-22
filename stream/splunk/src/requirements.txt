@@ -3,3 +3,5 @@ stix-shifter==6.2.2
 stix-shifter-utils==6.2.2
 stix-shifter-modules-splunk==6.2.2
 prometheus-client==0.17.1
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=1.26.18 # not directly required, pinned by Snyk to avoid a vulnerability
