@@ -3,3 +3,4 @@ stix-shifter==6.2.2
 stix-shifter-utils==6.2.2
 stix-shifter-modules-splunk==6.2.2
 prometheus-client==0.17.1
+aiohttp>=3.9.0 # not directly required, pinned by Snyk to avoid a vulnerability
