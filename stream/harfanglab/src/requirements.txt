@@ -2,3 +2,5 @@ pycti==5.11.4
 stix-shifter==6.2.2
 stix-shifter-utils==6.2.2
 stix-shifter-modules-splunk==6.2.2
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
