@@ -1,4 +1,4 @@
-FROM python:3.11-alpine
+FROM python:3.13.0a3-alpine
 
 # Install dependencies
 RUN apk --no-cache add git build-base libmagic libffi-dev libxml2-dev libxslt-dev libzmq zeromq-dev musl-dev python3-dev
