@@ -1,4 +1,4 @@
-FROM python:3.11-alpine
+FROM python:3.13.0a3-alpine
 
 COPY src /opt/connector
 WORKDIR /opt/connector
