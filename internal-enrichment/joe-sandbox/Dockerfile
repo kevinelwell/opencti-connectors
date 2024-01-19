@@ -1,4 +1,4 @@
-FROM python:3.11-alpine
+FROM python:3.13.0a3-alpine
 
 # Copy the worker
 COPY src/requirements.txt /opt/opencti-connector-joe-sandbox/requirements.txt
