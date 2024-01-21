@@ -3,3 +3,4 @@ weasyprint==60.1
 html2text==2020.1.16
 pdfminer.six==20221105
 pdfkit==1.0.0
+pillow>=10.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
